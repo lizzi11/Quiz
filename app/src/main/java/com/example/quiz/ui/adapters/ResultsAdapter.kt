@@ -33,17 +33,16 @@ class ResultsAdapter : RecyclerView.Adapter<ResultsAdapter.ResultViewHolder>() {
         RecyclerView.ViewHolder(binding.root) {
         fun bind(result: QuizResultWithUser, position: Int) {
             val rank = position + 1
-            // ლიდერბორდზე გამოვაჩინოთ: "ადგილი. მომხმარებელი (კატეგორია)"
+
             binding.textViewResultCategory.text = "$rank. ${result.username} (${result.categoryName})"
             binding.textViewScore.text = "${result.score}/${result.totalQuestions}"
             binding.textViewDate.text = dateFormat.format(Date(result.timestamp))
             
-            // ტოპ 3-ისთვის გამოვიყენოთ ოქროსფერი/ბრაუნის აქცენტები
             if (rank <= 3) {
-                binding.textViewScore.setTextColor(android.graphics.Color.parseColor("#795548")) // Brown
+                binding.textViewScore.setTextColor(android.graphics.Color.parseColor("#795548")) 
                 binding.textViewScore.textSize = 22f
             } else {
-                binding.textViewScore.setTextColor(android.graphics.Color.parseColor("#757575")) // Grey
+                binding.textViewScore.setTextColor(android.graphics.Color.parseColor("#757575")) 
                 binding.textViewScore.textSize = 20f
             }
         }
