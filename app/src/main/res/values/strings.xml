@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EduQuiz</string>
+    <string name="congrats">გილოცავთ!</string>
+    <string name="your_score_label">თქვენი ქულაა:</string>
+    <string name="review_answers">სწორი პასუხების ნახვა</string>
+    <string name="back_to_categories">კატეგორიებში დაბრუნება</string>
+    <string name="review_title">სწორი პასუხები</string>
+    <string name="your_answer_format">თქვენი პასუხი: %1$s</string>
+    <string name="no_answer">თქვენი პასუხი: არ იყო პასუხი (დრო ამოიწურა)</string>
+    <string name="correct_answer_format">სწორი პასუხი: %1$s</string>
+    <string name="score_format">%1$d/%2$d</string>
+    <string name="total_quizzes">ჯამური ქვიზები:</string>
+    <string name="average_score">საშუალო ქულა:</string>
+    <string name="logout">გამოსვლა</string>
+    <string name="profile_title">პროფილი</string>
+    <string name="choose_category">აირჩიეთ კატეგორია</string>
+    <string name="question_count_format">კითხვა %1$d/%2$d</string>
+    <string name="welcome_message">გამარჯობა!</string>
+</resources>
