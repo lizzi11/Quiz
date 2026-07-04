@@ -31,3 +31,9 @@ QuizDao: ინტერფეისი SQL მოთხოვნებისთ
 QuizRepository: შუამავალი ბაზასა და ViewModel-ს შორის, რომელიც მართავს საწყის შევსებას (Prepopulate).
 
 Fixed IDs: ფიქსირებული ID-ები + REPLACE სტრატეგია კითხვების განახლებისთვის, შედეგების წაშლის გარეშე.
+
+
+
+
+https://github.com/user-attachments/assets/7218ebc6-44d7-4196-ade5-4265976d84e1
+
